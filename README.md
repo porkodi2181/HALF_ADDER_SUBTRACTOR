@@ -21,6 +21,7 @@ Sum = A’B+AB’ =A ⊕ B Carry = AB
 ![image](https://github.com/naavaneetha/HALF_ADDER_SUBTRACTOR/assets/154305477/bd4a0b2c-cdbc-4184-ab08-81578f121e1f)
 
 Figure -01 HALF ADDER
+![image](https://github.com/user-attachments/assets/dd06fb5b-c077-4d72-916b-c7f7095fc71f)
 
 **Half Subtractor**
 
@@ -33,7 +34,16 @@ Borrow = A’B
 
 Figure -02 HALF Subtractor
 
+![image](https://github.com/user-attachments/assets/8e8c984a-8311-4781-aafe-a8ff4aa43292)
+
 **Truthtable**
+
+half adder
+
+![image](https://github.com/user-attachments/assets/4a298ea2-d213-4a7c-b49c-0a68190522ad)
+
+half subtractor
+![image](https://github.com/user-attachments/assets/ae463244-fd9e-4a85-9fbd-4b0be8628c38)
 
 **Procedure**
 
@@ -50,10 +60,11 @@ Figure -02 HALF Subtractor
 
 **Program:**
 
-/* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-
-Developed by:porkodi RegisterNumber:24900502
-
+ Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
+```
+Developed by:Porkodi.B
+RegisterNumber:24900502
+```
 ```
 module exp3(a,b,cy,sm,df,bo);
 input a,b;
@@ -63,7 +74,6 @@ and(cy,a,b);
 xor(df,a,b);
 and(bo,~a,b);
 endmodule
-
 ```
 
 **RTL Schematic**
@@ -75,4 +85,5 @@ endmodule
 ![exp3](https://github.com/user-attachments/assets/4a7c37f0-c38d-4c52-8d10-20c287edf6c0)
 
 **Result:**
+
 truth table half adder and full adder are verify successfully
